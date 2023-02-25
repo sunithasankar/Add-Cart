@@ -3,9 +3,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hi Sunitha This is my first React Demo</h1>
-    </div>
+    <div>
+    <center>
+      <h4>Food Recipe App</h4>
+      </center>
+      </div>
   );
 }
 
