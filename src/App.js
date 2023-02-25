@@ -13,7 +13,7 @@ function App() {
       <center>
       <h4>Food Recipe App</h4> <br/>
       <form onSubmit={submitHandler}>
-        <input type="text" value={search} onChange={() => setSearch(e.target.value)}/> <br/>
+        <input type="text" value={search} onChange={(e) => setSearch(e.target.value)}/> <br/>
         <input type="submit" value="search" />
 
 
