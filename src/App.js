@@ -3,11 +3,9 @@ import './App.css';
 
 function App() {
   return (
-    <div>
-    <center>
-      <h4>Food Recipe App</h4>
-      </center>
-      </div>
+    <div className="App">
+      <h1>Hi Sunitha This is my jhbvslvbscljkfslkjvhdklfhl first React Demo</h1>
+    </div>
   );
 }
 
