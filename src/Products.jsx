@@ -3,7 +3,7 @@ import Cart from "./Cart";
 import axios from "axios";
 
 function Products(){
-    const[products, setProducts] = usestate({})
+    const[products, setProducts] = useState({})
 useEffect(() =>{
 axios.get("https://fakestoreapi.com/products").then((res)=>(
     console.log(res.data)
