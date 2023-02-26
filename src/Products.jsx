@@ -14,8 +14,8 @@ return (
    <h1>Products</h1>
     <div>
         {products.lenth>0 && (
-            products.map((product)=>{
-                return <li>{product.title}</li>
+            products.map((products)=>{
+                return <li>{products.title}</li>
             })
         )}
         </div>  
