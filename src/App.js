@@ -4,7 +4,7 @@ import React from 'react';
 import Products from './Products';
 import Cart from './Cart';
 
-function App() {
+function App()  {
   
   return (
     <div className='border border-4 border-danger p-2 w-100 '>
