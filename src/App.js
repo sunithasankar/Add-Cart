@@ -8,7 +8,7 @@ function App() {
   
   return (
     <div className='border border-4 border-danger p-2 w-100 '>
-      <h1>Welcome to Add Cart</h1>  
+     <center><h1>Welcome to Add Cart</h1>  </center> 
       <Products></Products>
       
     </div>
